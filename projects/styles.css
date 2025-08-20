@@ -1,4 +1,98 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+#navsec {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+#s1 {
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f6f7f9;
+}
+
+.textbox1-0 {
+  background-color: #54a6ff;
+  border-radius: 10px;
+}
+
+.textbox1-1 {
+  background-color: #3563e9;
+  border-radius: 10px;
+}
+
+.textbox3-1 {
+  background-color: white;
+  border-radius: 15px;
+  width: 25%;
+}
+
+.textbox3-2 {
+  background-color: white;
+  border-radius: 15px;
+  width: 25%;
+}
+
+.textbox3-3 {
+  background-color: white;
+  border-radius: 15px;
+  width: 25%;
+}
+
+.textbox3-4 {
+  background-color: white;
+  border-radius: 15px;
+  width: 25%;
+}
+
+.textbox3-5 {
+  background-color: white;
+  border-radius: 15px;
+  width: 25%;
+}
+
+.textbox3-6 {
+  background-color: white;
+  border-radius: 15px;
+  width: 25%;
+}
+
+.textbox3-7 {
+  background-color: white;
+  border-radius: 15px;
+  width: 25%;
+}
+
+.textbox3-8 {
+  background-color: white;
+  border-radius: 15px;
+  width: 25%;
+}
+
+.textbox3-9 {
+  background-color: white;
+  border-radius: 15px;
+  width: 25%;
+}
+
+.textbox3-10 {
+  background-color: white;
+  border-radius: 15px;
+  width: 25%;
+}
+
+.textbox3-11 {
+  background-color: white;
+  border-radius: 15px;
+  width: 25%;
+}
+
+.textbox3-12 {
+  background-color: white;
+  border-radius: 15px;
+  width: 25%;
 }
