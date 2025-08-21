@@ -18,6 +18,7 @@
 .logotext {
   color: #3563e9;
 }
+
 #s1 {
   padding-left: 5%;
   padding-right: 5%;
@@ -55,10 +56,10 @@
 }
 
 @media screen and (max-width: 320px) {
-    .textbox1-0 {
-      width: 100%;
-    }
+  .textbox1-0 {
+    width: 100%;
   }
+}
 
 .textbox2-0 {
   flex-direction: column;
@@ -75,7 +76,7 @@
   background-color: #3563e9;
 }
 
-.swap{
+.swap {
   display: flex;
   justify-self: center;
 }
@@ -173,36 +174,36 @@
 
 @media screen and (max-width: 320px) {
   .textbox3-5 {
-  width: 100%;
-}
+    width: 100%;
+  }
 
-.textbox3-6 {
-  width: 100%;
-}
+  .textbox3-6 {
+    width: 100%;
+  }
 
-.textbox3-7 {
-  width: 100%;
-}
+  .textbox3-7 {
+    width: 100%;
+  }
 
-.textbox3-8 {
-  width: 100%;
-}
+  .textbox3-8 {
+    width: 100%;
+  }
 
-.textbox3-9 {
-  width: 100%;
-}
+  .textbox3-9 {
+    width: 100%;
+  }
 
-.textbox3-10 {
-  width: 100%;
-}
+  .textbox3-10 {
+    width: 100%;
+  }
 
-.textbox3-11 {
-  width: 100%;
-}
+  .textbox3-11 {
+    width: 100%;
+  }
 
-.textbox3-12 {
-  width: 100%;
-}
+  .textbox3-12 {
+    width: 100%;
+  }
 }
 
 #footer {
