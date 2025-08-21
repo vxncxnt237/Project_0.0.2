@@ -9,20 +9,89 @@
   padding-right: 5%;
 }
 
+.head {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.logotext {
+  color: #3563e9;
+}
 #s1 {
   padding-left: 5%;
   padding-right: 5%;
   background-color: #f6f7f9;
 }
 
+.textboxcontainer1-0 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 .textbox1-0 {
   background-color: #54a6ff;
   border-radius: 10px;
+  width: 49%;
+}
+
+.textbox1-0 button {
+  background-color: #3563e9;
+  border-radius: 5px;
+  border-color: #3563e9;
 }
 
 .textbox1-1 {
   background-color: #3563e9;
   border-radius: 10px;
+  width: 49%;
+}
+
+.textboxcontainer2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 320px) {
+    .textbox1-0 {
+      width: 100%;
+    }
+  }
+
+.textbox2-0 {
+  flex-direction: column;
+}
+
+.ldt1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.updown {
+  width: 6%;
+  border-radius: 15px;
+  background-color: #3563e9;
+}
+
+.swap{
+  display: flex;
+  justify-self: center;
+}
+
+.textbox2-1 {
+  flex-direction: column;
+}
+
+.ldt2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.firstrow {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .textbox3-1 {
@@ -47,6 +116,11 @@
   background-color: white;
   border-radius: 15px;
   width: 25%;
+}
+
+.secondcol {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .textbox3-5 {
@@ -95,4 +169,69 @@
   background-color: white;
   border-radius: 15px;
   width: 25%;
+}
+
+@media screen and (max-width: 320px) {
+  .textbox3-5 {
+  width: 100%;
+}
+
+.textbox3-6 {
+  width: 100%;
+}
+
+.textbox3-7 {
+  width: 100%;
+}
+
+.textbox3-8 {
+  width: 100%;
+}
+
+.textbox3-9 {
+  width: 100%;
+}
+
+.textbox3-10 {
+  width: 100%;
+}
+
+.textbox3-11 {
+  width: 100%;
+}
+
+.textbox3-12 {
+  width: 100%;
+}
+}
+
+#footer {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.footer1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footertext1 h1 {
+  color: #3563e9;
+}
+
+.footbox2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.pptc {
+  display: inline-block;
 }
