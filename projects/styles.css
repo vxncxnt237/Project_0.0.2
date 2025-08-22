@@ -28,9 +28,11 @@
   .i1 {
     display: none;
   }
+
   .i2 {
     display: none;
   }
+
   .i3 {
     display: none;
   }
@@ -46,9 +48,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-}
-
-.textboxcontainer1-0 {
   color: #fff;
   padding-top: 4%;
   padding-bottom: 2%;
@@ -62,8 +61,8 @@
   background-color: #54a6ff;
   border-radius: 10px;
   width: 49%;
-  background-image: url(assets/images/Ellipse42.png);
-  background-repeat: url(assets/images/Ellipse41.png);
+  background-image: "url(assets/images/Ellipse42.png)";
+  background-repeat: "url(assets/images/Ellipse41.png)";
   background-position: center;
 }
 
@@ -98,7 +97,7 @@
 
 .text1-1 {
   padding: 2%;
-  width: 50%
+  width: 50%;
 }
 
 .textbox1-1 img {
@@ -113,20 +112,20 @@
 
 @media screen and (max-width: 320px) {
   .textboxcontainer1-0 h1 {
-  line-height: 150%;
-  font-size: 16px;
-  font-weight: 600;
-}
+    line-height: 150%;
+    font-size: 16px;
+    font-weight: 600;
+  }
 
-.textboxcontainer1-0 p {
-  line-height: 150%;
-  font-size: 8px;
-}
+  .textboxcontainer1-0 p {
+    line-height: 150%;
+    font-size: 8px;
+  }
 
-.textboxcontainer1-0 img {
+  .textboxcontainer1-0 img {
     height: 30%;
   }
-  
+
   .textbox1-0 {
     width: 100%;
   }
@@ -185,7 +184,7 @@
     flex: wrap;
     justify-content: center;
   }
-  
+
   .textbox2-0 {
     width: 100%;
   }
@@ -202,7 +201,7 @@
 
 .firstrow {
   display: flex;
-  justify-content: space-between ;
+  justify-content: space-between;
 }
 
 .textbox3-1 {
@@ -215,7 +214,7 @@
 .h1 {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between ;
+  justify-content: space-between;
 }
 
 .specification3-1 {
@@ -263,7 +262,7 @@
   .firstrow {
     overflow: scroll;
   }
-  
+
   .textbox3-1 {
     width: 100%;
   }
