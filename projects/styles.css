@@ -1,4 +1,575 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+#navsec {
+  padding-left: 5%;
+  padding-right: 5%;
+  height: 10vh;
+}
+
+.head {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.logobox {
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.logotext {
+  color: #3563e9;
+}
+
+.icons {
+  display: flex;
+  width: 25%;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 320px) {
+  .i1 {
+    display: none;
+  }
+
+  .i2 {
+    display: none;
+  }
+
+  .i3 {
+    display: none;
+  }
+}
+
+#s1 {
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f6f7f9;
+}
+
+.textboxcontainer1-0 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: #fff;
+  padding-top: 4%;
+  padding-bottom: 2%;
+}
+
+.textbox1-0 img {
+  width: 80%;
+}
+
+.textbox1-0 {
+  background-color: #54a6ff;
+  border-radius: 10px;
+  width: 49%;
+  background-image: "url(assets/images/Ellipse42.png)";
+  background-position: center;
+}
+
+.text1-0 {
+  padding: 2%;
+  width: 50%;
+}
+
+.textboxcontainer1-0 h1 {
+  line-height: 150%;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.textboxcontainer1-0 p {
+  line-height: 150%;
+  font-size: 16px;
+}
+
+.textbox1-0 button {
+  background-color: #3563e9;
+  border-radius: 5px;
+  border-color: #3563e9;
+  color: white;
+}
+
+.textbox1-1 {
+  background-color: #3563e9;
+  border-radius: 10px;
+  width: 49%;
+}
+
+.text1-1 {
+  padding: 2%;
+  width: 50%;
+}
+
+.img8 {
+  display: flex;
+  margin-left: 20%;
+}
+
+.textbox1-1 img {
+  width: 80%;
+}
+
+.textboxcontainer2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 320px) {
+  .textboxcontainer1-0 {
+    height: 40vh;
+  }
+
+  .textboxcontainer1-0 h1 {
+    line-height: 150%;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .textboxcontainer1-0 p {
+    line-height: 150%;
+    font-size: 8px;
+  }
+
+  .textboxcontainer1-0 img {
+    height: 30%;
+  }
+
+  .textbox1-0 {
+    width: 100%;
+  }
+
+  .text1-0 {
+    width: 100%;
+  }
+
+  .textbox1-1 {
+    display: none;
+  }
+}
+
+.textbox2-0 {
+  flex-direction: column;
+  background-color: white;
+  border-radius: 15px;
+  width: 40%;
+  padding: 2%;
+}
+
+.ldt1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.updown {
+  width: 8%;
+  border-radius: 15px;
+  background-color: #3563e9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  align-self: center;
+}
+
+.textbox2-1 {
+  flex-direction: column;
+  background-color: white;
+  border-radius: 15px;
+  width: 40%;
+  padding: 2%;
+}
+
+.ldt2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.textboxcontainer2 h1 {
+  font-size: 15px;
+}
+
+.textboxcontainer2 p {
+  font-size: 15px;
+  color: #90a3bf;
+}
+
+@media screen and (max-width: 320px) {
+  .textboxcontainer2 {
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+  }
+
+  .textbox2-0 {
+    width: 100%;
+  }
+
+  .textbox2-1 {
+    width: 100%;
+  }
+
+  .updown {
+    width: 10%;
+    height: 10%;
+  }
+}
+
+.firstrow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.textbox3-1 {
+  background-color: white;
+  border-radius: 15px;
+  width: 22%;
+  padding: 1%;
+}
+
+.h1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.h2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.caropt {
+  width: 70%;
+}
+
+.specification3-1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.textbox3-2 {
+  background-color: white;
+  border-radius: 15px;
+  width: 22%;
+  padding: 1%;
+}
+
+.specification3-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.textbox3-3 {
+  background-color: white;
+  border-radius: 15px;
+  width: 22%;
+  padding: 1%;
+}
+
+.specification3-3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.textbox3-4 {
+  background-color: white;
+  border-radius: 15px;
+  width: 22%;
+  padding: 1%;
+}
+
+.specification3-4 {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 320px) {
+  .firstrow {
+    overflow: scroll;
+    gap: 5%;
+  }
+
+  .textbox3-1 {
+    width: 100%;
+  }
+
+  .textbox3-2 {
+    width: 100%;
+  }
+
+  .textbox3-3 {
+    width: 100%;
+  }
+
+  .textbox3-4 {
+    width: 100%;
+  }
+}
+
+.secondcol {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.textbox3-5 {
+  background-color: white;
+  border-radius: 15px;
+  width: 22%;
+  padding: 1%;
+  margin-bottom: 2%;
+}
+
+.specification3-5 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.textbox3-6 {
+  background-color: white;
+  border-radius: 15px;
+  width: 22%;
+  padding: 1%;
+  margin-bottom: 2%;
+}
+
+.specification3-6 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.textbox3-7 {
+  background-color: white;
+  border-radius: 15px;
+  width: 22%;
+  padding: 1%;
+  margin-bottom: 2%;
+}
+
+.specification3-7 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.textbox3-8 {
+  background-color: white;
+  border-radius: 15px;
+  width: 22%;
+  padding: 1%;
+  margin-bottom: 2%;
+}
+
+.specification3-8 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.textbox3-9 {
+  background-color: white;
+  border-radius: 15px;
+  width: 22%;
+  padding: 1%;
+  margin-bottom: 2%;
+}
+
+.specification3-9 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.textbox3-10 {
+  background-color: white;
+  border-radius: 15px;
+  width: 22%;
+  padding: 1%;
+  margin-bottom: 2%;
+}
+
+.specification3-10 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.textbox3-11 {
+  background-color: white;
+  border-radius: 15px;
+  width: 22%;
+  padding: 1%;
+  margin-bottom: 2%;
+}
+
+.specification3-11 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.specification3-11 img {
+  width: 20px;
+}
+
+.textbox3-12 {
+  background-color: white;
+  border-radius: 15px;
+  width: 22%;
+  padding: 1%;
+  margin-bottom: 2%;
+}
+
+.specification3-12 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.textboxcontainer3 h1 {
+  font-size: 20px;
+}
+
+.textboxcontainer3 p {
+  font-size: 15px;
+  color: #90a3bf;
+}
+
+.cs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 320px) {
+  .caropt {
+    width: 70%;
+  }
+
+  .textbox3-5 {
+    width: 100%;
+  }
+
+  .specification3-5 {
+    width: 30%;
+    flex-direction: column;
+  }
+
+  .textbox3-6 {
+    width: 100%;
+  }
+
+  .specification3-6 {
+    width: 50%;
+  }
+
+  .textbox3-7 {
+    width: 100%;
+  }
+
+  .specification3-7 {
+    width: 50%;
+  }
+
+  .textbox3-8 {
+    width: 100%;
+  }
+
+  .specification3-8 {
+    width: 50%;
+  }
+
+  .textbox3-9 {
+    width: 100%;
+  }
+
+  .specification3-9 {
+    width: 50%;
+  }
+
+  .textbox3-10 {
+    width: 100%;
+  }
+
+  .specification3-10 {
+    width: 50%;
+  }
+
+  .textbox3-11 {
+    width: 100%;
+  }
+
+  .specification3-11 {
+    width: 50%;
+  }
+
+  .textbox3-12 {
+    width: 100%;
+  }
+
+  .specification3-12 {
+    width: 50%;
+  }
+}
+
+#footer {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.footer1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footbox1 {
+  width: 30%;
+}
+
+.footertext1 h1 {
+  color: #3563e9;
+}
+
+.footbox2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.footer2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.smc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pptc {
+  display: inline-block;
+}
+
+ul {
+  list-style: none;
+}
+
+@media screen and (max-width: 320px) {
+  .footbox1 {
+    width: 100%;
+  }
+
+  .footbox2 {
+    width: 100%;
+    justify-content: space-between;
+  }
 }
