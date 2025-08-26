@@ -7,12 +7,15 @@
 #navsec {
   padding-left: 5%;
   padding-right: 5%;
+  height: 10vh;
 }
 
 .head {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 
 .logobox {
@@ -22,6 +25,12 @@
 
 .logotext {
   color: #3563e9;
+}
+
+.icons {
+  display: flex;
+  width: 25%;
+  justify-content: space-around;
 }
 
 @media screen and (max-width: 320px) {
@@ -54,7 +63,7 @@
 }
 
 .textbox1-0 img {
-  width: 90%;
+  width: 80%;
 }
 
 .textbox1-0 {
@@ -62,7 +71,6 @@
   border-radius: 10px;
   width: 49%;
   background-image: "url(assets/images/Ellipse42.png)";
-  background-repeat: "url(assets/images/Ellipse41.png)";
   background-position: center;
 }
 
@@ -82,7 +90,7 @@
   font-size: 16px;
 }
 
-.textboxcontainer1-0 button {
+.textbox1-0 button {
   background-color: #3563e9;
   border-radius: 5px;
   border-color: #3563e9;
@@ -100,8 +108,13 @@
   width: 50%;
 }
 
+.img8 {
+  display: flex;
+  margin-left: 20%;
+}
+
 .textbox1-1 img {
-  width: 85%;
+  width: 80%;
 }
 
 .textboxcontainer2 {
@@ -111,6 +124,10 @@
 }
 
 @media screen and (max-width: 320px) {
+  .textboxcontainer1-0 {
+    height: 40vh;
+  }
+  
   .textboxcontainer1-0 h1 {
     line-height: 150%;
     font-size: 16px;
@@ -150,7 +167,7 @@
 .ldt1 {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .updown {
@@ -176,6 +193,15 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.textboxcontainer2 h1 {
+  font-size: 15px;
+}
+
+.textboxcontainer2 p {
+  font-size: 15px;
+  color: #90A3BF;
 }
 
 @media screen and (max-width: 320px) {
@@ -223,6 +249,10 @@
   justify-content: space-between;
 }
 
+.caropt {
+  width: 70%;
+}
+
 .specification3-1 {
   display: flex;
   justify-content: space-between;
@@ -267,6 +297,7 @@
 @media screen and (max-width: 320px) {
   .firstrow {
     overflow: scroll;
+    gap: 5%;
   }
 
   .textbox3-1 {
@@ -289,12 +320,15 @@
 .secondcol {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .textbox3-5 {
   background-color: white;
   border-radius: 15px;
-  width: 25%;
+  width: 22%;
+  padding: 1%;
+  margin-bottom: 2%;
 }
 
 .specification3-5 {
@@ -305,7 +339,9 @@
 .textbox3-6 {
   background-color: white;
   border-radius: 15px;
-  width: 25%;
+  width: 22%;
+  padding: 1%;
+  margin-bottom: 2%;
 }
 
 .specification3-6 {
@@ -316,7 +352,9 @@
 .textbox3-7 {
   background-color: white;
   border-radius: 15px;
-  width: 25%;
+  width: 22%;
+  padding: 1%;
+  margin-bottom: 2%;
 }
 
 .specification3-7 {
@@ -327,7 +365,9 @@
 .textbox3-8 {
   background-color: white;
   border-radius: 15px;
-  width: 25%;
+  width: 22%;
+  padding: 1%;
+  margin-bottom: 2%;
 }
 
 .specification3-8 {
@@ -338,7 +378,9 @@
 .textbox3-9 {
   background-color: white;
   border-radius: 15px;
-  width: 25%;
+  width: 22%;
+  padding: 1%;
+  margin-bottom: 2%;
 }
 
 .specification3-9 {
@@ -349,7 +391,9 @@
 .textbox3-10 {
   background-color: white;
   border-radius: 15px;
-  width: 25%;
+  width: 22%;
+  padding: 1%;
+  margin-bottom: 2%;
 }
 
 .specification3-10 {
@@ -360,7 +404,9 @@
 .textbox3-11 {
   background-color: white;
   border-radius: 15px;
-  width: 25%;
+  width: 22%;
+  padding: 1%;
+  margin-bottom: 2%;
 }
 
 .specification3-11 {
@@ -368,10 +414,16 @@
   justify-content: space-between;
 }
 
+.specification3-11 img {
+  width: 20px;
+}
+
 .textbox3-12 {
   background-color: white;
   border-radius: 15px;
-  width: 25%;
+  width: 22%;
+  padding: 1%;
+  margin-bottom: 2%;
 }
 
 .specification3-12 {
@@ -379,37 +431,89 @@
   justify-content: space-between;
 }
 
+.textboxcontainer3 h1 {
+  font-size: 20px;
+}
+
+.textboxcontainer3 p {
+  font-size: 15px;
+  color: #90A3BF;
+}
+
+.cs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 @media screen and (max-width: 320px) {
+  .caropt{
+    width: 70%;
+  }
+  
   .textbox3-5 {
     width: 100%;
+  }
+
+  .specification3-5 {
+    width: 30%;
+    flex-direction: column;
   }
 
   .textbox3-6 {
     width: 100%;
   }
 
+  .specification3-6 {
+    width: 50%;
+  }
+
   .textbox3-7 {
     width: 100%;
+  }
+
+  .specification3-7 {
+    width: 50%;
   }
 
   .textbox3-8 {
     width: 100%;
   }
 
+  .specification3-8 {
+    width: 50%;
+  }
+
   .textbox3-9 {
     width: 100%;
+  }
+
+  .specification3-9 {
+    width: 50%;
   }
 
   .textbox3-10 {
     width: 100%;
   }
 
+  .specification3-10 {
+    width: 50%;
+  }
+
   .textbox3-11 {
     width: 100%;
   }
 
+  .specification3-11 {
+    width: 50%;
+  }
+
   .textbox3-12 {
     width: 100%;
+  }
+
+  .specification3-12 {
+    width: 50%;
   }
 }
 
@@ -435,7 +539,8 @@
 .footbox2 {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
+  width: 50%;
 }
 
 .footer2 {
@@ -443,6 +548,8 @@
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
+
 
 .smc {
   display: flex;
@@ -452,4 +559,19 @@
 
 .pptc {
   display: inline-block;
+}
+
+ul {
+  list-style: none;
+}
+
+@media screen and (max-width: 320px) {
+  .footbox1 {
+    width: 100%;
+  }
+
+  .footbox2 {
+    width: 100%;
+    justify-content: space-between;
+  }
 }
