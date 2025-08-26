@@ -127,7 +127,7 @@
   .textboxcontainer1-0 {
     height: 40vh;
   }
-  
+
   .textboxcontainer1-0 h1 {
     line-height: 150%;
     font-size: 16px;
@@ -201,7 +201,7 @@
 
 .textboxcontainer2 p {
   font-size: 15px;
-  color: #90A3BF;
+  color: #90a3bf;
 }
 
 @media screen and (max-width: 320px) {
@@ -437,7 +437,7 @@
 
 .textboxcontainer3 p {
   font-size: 15px;
-  color: #90A3BF;
+  color: #90a3bf;
 }
 
 .cs {
@@ -447,10 +447,10 @@
 }
 
 @media screen and (max-width: 320px) {
-  .caropt{
+  .caropt {
     width: 70%;
   }
-  
+
   .textbox3-5 {
     width: 100%;
   }
